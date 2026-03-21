@@ -161,18 +161,6 @@
   </dependencies>
 
   <build>
-    <plugins>
-      <plugins>
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-surefire-plugin</artifactId>
-      <version>3.1.2</version>
-      <configuration>
-        <argLine>
-          -javaagent:${settings.localRepository}/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar
-        </argLine>
-      </configuration>
-    </plugin>
   </plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
